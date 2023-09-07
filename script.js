@@ -11,7 +11,7 @@ if (age>65) price = price - discountAdult;
 
 const message = `
   
-  Il prezzo del biglietto è ${price.toFixed(2)}
+  Il prezzo del biglietto è ${price.toFixed(2)}€
 `;
 
 document.getElementById('output').innerHTML = message;
